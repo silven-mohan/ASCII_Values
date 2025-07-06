@@ -1,14 +1,15 @@
 /**ASCII Values**/
 
-#include<conio.h>
+#include<stdio.h>
 #include<stdlib.h>
 
-main()
+int main()
 {
 	int i;
-	system("cls");
+	// system("cls");
 	for(i=0;i<=255;i++)
 	{
 		printf("%d: %c\n", i, i);	
-	}	
+	}
+	return 0;
 }

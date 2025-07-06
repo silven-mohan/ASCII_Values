@@ -36,7 +36,7 @@ jobs:
       - name: Run the code
         run: |
           echo -e "Test Run Result:\n" > Test-Run-Result/Result.txt
-             | ./AV >> Test-Run-Result/Result.txt
+          ./AV >> Test-Run-Result/Result.txt
 
       # Push Result to Repo
 

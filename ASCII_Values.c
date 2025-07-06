@@ -12,4 +12,5 @@ int main()
 		printf("%d: %c\n", i, i);	
 	}
 	return 0;
+	
 }
